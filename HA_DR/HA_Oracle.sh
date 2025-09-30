@@ -1,12 +1,17 @@
 #!/bin/bash
-# Script de ejemplo de Alta Disponibilidad en Oracle
+# Script semi-real de Alta Disponibilidad Oracle
 # Autor: Paula Bolaños
 
-echo "===== Simulación de Alta Disponibilidad Oracle ====="
-echo "1. Comprobando estado de nodos RAC..."
-echo "2. Verificando Data Guard standby..."
-echo "3. Simulando failover de nodo principal..."
-echo "Failover exitoso. Nodos activos:"
-echo "Nodo 1: activo"
-echo "Nodo 2: activo (standby)"
-echo "===== Fin de la simulación ====="
+echo "===== HA Oracle: Comprobaciones y procedimientos ====="
+
+# Verificar nodos RAC (simulado)
+echo "Comando real: srvctl status database -d NOMBRE_DB"
+
+# Revisar Data Guard
+echo "Comando real: dgmgrl sys/password@PRIMARY_DB 'show configuration;'"
+
+# Simulación de failover
+echo "En un entorno real:"
+echo "dgmgrl sys/password@PRIMARY_DB 'failover to STANDBY_DB;'"
+
+echo "===== Fin de la simulación semi-real ====="
