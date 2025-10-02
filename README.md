@@ -26,5 +26,24 @@ Este repositorio contiene laboratorios prácticos y scripts que muestran mis hab
 - **DR_Strategies.md** + **DR_Strategies.sh**: Simulación semi-real de estrategias de Disaster Recovery para servidores y bases de datos.
 
 ---
+## Cloud Engineer – Portafolio en Azure
+
+Este repositorio también incluye mi portafolio de Cloud Engineer Jr, documentando proyectos prácticos en Azure, con despliegue de máquinas virtuales, redes, almacenamiento, administración, automatización y uso de infraestructura como código (IaC).
+
+### Estructura del portafolio Cloud_Engineer
+
+- `Cloud_Engineer/Fundamentos/` → VM Linux, VNet, subredes y Blob Storage  
+- `Cloud_Engineer/Administracion/` → Gestión de usuarios y roles, monitoreo y scripts de automatización  
+- `Cloud_Engineer/Mini-Proyecto/` → Proyecto integrador combinando todo lo aprendido  
+- `Cloud_Engineer/IaC/` → Despliegue completo de infraestructura con Terraform o Bicep  
+
+Cada carpeta contiene un README.md con:
+- Comandos ejecutados  
+- Capturas de pantalla  
+- Problemas encontrados y soluciones  
+- Explicación técnica de cada paso  
+
+[Ver proyectos Cloud_Engineer](./Cloud_Engineer)
+
 
 > 💡 **Nota para reclutadores:** Todos los scripts están documentados y muestran procedimientos semi-reales para ilustrar mi conocimiento técnico en administración de sistemas, bases de datos, alta disponibilidad y recuperación ante desastres. Esto permite evaluar mis competencias prácticas sin necesidad de un entorno real.
