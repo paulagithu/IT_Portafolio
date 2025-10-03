@@ -15,9 +15,30 @@ Sentar la base práctica de Cloud:
 **Descripción:**  
 Aquí se documenta la creación y configuración de la VM.
 
-**Pasos realizados:**
+---
 
-1. Creación de la VM en Azure:  
-   ```bash
-   # Comando de ejemplo
-   az vm create --resource-group MiGrupo --name MiVM --image UbuntuLTS --admin-username miusuario --generate-ssh-keys
+# Fundamentos de Azure ☁️
+
+Este laboratorio documenta la creación y configuración inicial de una máquina virtual en **Azure** usando la suscripción gratuita.
+
+## 1. Creación del Resource Group
+Se creó el grupo de recursos `rg-fundamentos` en la región **East US**.
+
+![Resource Group creado](images/01-resource-group.png)
+
+## 2. Creación de la Máquina Virtual
+Características principales:
+
+- **Nombre**: vm-linux-fundamentos  
+- **SO**: Ubuntu Server 24.04 LTS - Gen2  
+- **Tamaño**: Standard B1s (1 vCPU, 1 GiB RAM)  
+- **Autenticación**: SSH Key (RSA)  
+- **Usuario admin**: `azureuser`
+
+![Resumen de la VM](images/02-vm-summary.png)
+
+## 3. Conexión vía SSH
+Comando usado para conectarse (reemplaza `<public-ip>` por la IP pública real):
+
+```bash
+ssh -i vm-linux-fundamentos_key azureuser@<public-ip>
