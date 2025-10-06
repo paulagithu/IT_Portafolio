@@ -80,4 +80,5 @@ Se subió un archivo de prueba `prueba.txt` desde la VM Linux a Azure Blob Stora
 ```bash
 az storage blob upload --container-name fundamentos-container --name prueba.txt --file prueba.txt --connection-string "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=storagepaula;AccountKey=gAqxgpf+GRn1KN1n8dnOXPougFHe/3TxSqyoMT+HyJutkL23DdJSzByIr6OW5PThe0EmFbUbwQRk+AStN6M6zw==;BlobEndpoint=https://storagepaula.blob.core.windows.net/;FileEndpoint=https://storagepaula.file.core.windows.net/;QueueEndpoint=https://storagepaula.queue.core.windows.net/;TableEndpoint=https://storagepaula.table.core.windows.net/"
 ```
+![Subida exitosa a Blob Storage](Images/captura5_blob_upload.png)
 
