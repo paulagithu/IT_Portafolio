@@ -24,7 +24,7 @@ Este laboratorio documenta la creación y configuración inicial de una máquina
 ## 1. Creación del Resource Group
 Se creó el grupo de recursos `rg-fundamentos` en la región **East US**.
 
-![Resource Group creado](images/01-resource-group.png)
+![Resource Group creado](Images/01-resource-group.png)
 
 ## 2. Creación de la Máquina Virtual
 Características principales:
@@ -35,7 +35,7 @@ Características principales:
 - **Autenticación**: SSH Key (RSA)  
 - **Usuario admin**: `azureuser`
 
-![Resumen de la VM](images/02-vm-summary.png)
+![Resumen de la VM](Images/02-vm-summary.png)
 
 ## 3. Conexión vía SSH
 Comando usado para conectarse (reemplaza `<public-ip>` por la IP pública real):
@@ -46,4 +46,3 @@ ssh -i vm-linux-fundamentos_key azureuser@<public-ip>
 ### Captura #2 – Conexión SSH exitosa a la VM Linux
 
 ![Conexión SSH exitosa](Images/captura2_conexion_ssh.png)
-Cloud_engineer/Fundamentos/Images/captura2_conexion_ssh.png
