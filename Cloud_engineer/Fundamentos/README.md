@@ -63,3 +63,12 @@ top
 
 ---
 ![Comandos Basicos](Images/captura3_comandos_basicos.png).
+
+## 5. Almacenamiento en Azure (Blob Storage)
+
+Se creó un Storage Account y un container para subir archivos de prueba.
+
+- Storage Account: storagepaula
+- Container: fundamentos-container
+
+![Prueba de subida a Blob Storage](Images/captura4_blob_storage.png)
