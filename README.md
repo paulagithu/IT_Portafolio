@@ -43,7 +43,7 @@ Cada carpeta contiene un README.md con:
 - Problemas encontrados y soluciones  
 - Explicación técnica de cada paso  
 
-[Ver proyectos Cloud_Engineer](./Cloud_Engineer)
+[Ver proyectos Cloud_Engineer](./Cloud_engineer)
 
 
 > 💡 **Nota para reclutadores:** Todos los scripts están documentados y muestran procedimientos semi-reales para ilustrar mi conocimiento técnico en administración de sistemas, bases de datos, alta disponibilidad y recuperación ante desastres. Esto permite evaluar mis competencias prácticas sin necesidad de un entorno real.
