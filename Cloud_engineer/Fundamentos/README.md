@@ -71,6 +71,8 @@ Se creó un Storage Account y un container para subir archivos de prueba.
 - Storage Account: storagepaula
 - Container: fundamentos-container
 
+![Prueba de subida a Blob Storage](Images/captura4_blob_storage.png)
+
   ## 6. Subida de archivo a Blob Storage desde la VM
 
 Se subió un archivo de prueba `prueba.txt` desde la VM Linux a Azure Blob Storage usando Azure CLI.
@@ -79,4 +81,3 @@ Se subió un archivo de prueba `prueba.txt` desde la VM Linux a Azure Blob Stora
 az storage blob upload --container-name fundamentos-container --name prueba.txt --file prueba.txt --connection-string "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=storagepaula;AccountKey=gAqxgpf+GRn1KN1n8dnOXPougFHe/3TxSqyoMT+HyJutkL23DdJSzByIr6OW5PThe0EmFbUbwQRk+AStN6M6zw==;BlobEndpoint=https://storagepaula.blob.core.windows.net/;FileEndpoint=https://storagepaula.file.core.windows.net/;QueueEndpoint=https://storagepaula.queue.core.windows.net/;TableEndpoint=https://storagepaula.table.core.windows.net/"
 ```
 
-![Prueba de subida a Blob Storage](Images/captura4_blob_storage.png)
