@@ -62,4 +62,4 @@ top
 ```
 
 ---
-![Comandos Basicos]Cloud_engineer/Fundamentos/Images/captura3_comandos_basicos.png
+![Comandos Basicos](Cloud_engineer/Fundamentos/Images/captura3_comandos_basicos.png).
