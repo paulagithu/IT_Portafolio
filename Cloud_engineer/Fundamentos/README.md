@@ -42,3 +42,7 @@ Comando usado para conectarse (reemplaza `<public-ip>` por la IP pública real):
 
 ```bash
 ssh -i vm-linux-fundamentos_key azureuser@<public-ip>
+
+### Captura #2 – Conexión SSH exitosa a la VM Linux
+
+![Conexión SSH exitosa](images/captura2_conexion_ssh.png)
