@@ -35,7 +35,7 @@ Características principales:
 - **Autenticación**: SSH Key (RSA)  
 - **Usuario admin**: `azureuser`
 
-![Resumen de la VM](Images/02-vm-summary.png)
+![Resumen de la VM](Images/02-vm-Summary.png)
 
 ## 3. Conexión vía SSH
 Comando usado para conectarse (reemplaza `<public-ip>` por la IP pública real):
