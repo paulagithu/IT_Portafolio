@@ -46,3 +46,20 @@ ssh -i vm-linux-fundamentos_key azureuser@<public-ip>
 ---
 ![Conexión SSH exitosa](Images/captura2_conexion_ssh.png)
 
+
+
+## 4. Comandos básicos en la VM
+
+Comprobamos la conexión, configuración de red, uso de recursos y procesos activos.
+
+```bash
+whoami
+ip addr show
+hostname
+df -h
+free -h
+top
+```
+
+---
+![Comandos Basicos]Cloud_engineer/Fundamentos/Images/captura3_comandos_basicos.png
