@@ -45,4 +45,5 @@ ssh -i vm-linux-fundamentos_key azureuser@<public-ip>
 
 ### Captura #2 – Conexión SSH exitosa a la VM Linux
 
-![Conexión SSH exitosa](images/captura2_conexion_ssh.png)
+![Conexión SSH exitosa](Images/captura2_conexion_ssh.png)
+Cloud_engineer/Fundamentos/Images/captura2_conexion_ssh.png
