@@ -21,16 +21,16 @@ Durante esta actividad se practicaron las operaciones principales sobre la VM Li
 
 - 🔄 **Reiniciar VM:**
   ```bash
-  az vm restart --resource-group rg-linux-fundamentos --name vm-linux-fundamentos
+  az vm restart --resource-group rg-fundamentos --name vm-linux-fundamentos
 
 - 🔄 **Detener VM:**
   ```bash
-  az vm deallocate --resource-group rg-linux-fundamentos --name vm-linux-fundamentos
+  az vm deallocate --resource-group rg-fundamentos --name vm-linux-fundamentos
   ```
 - 🔄 **Encender VM:**
  ```bash
     az login
-    az vm start --resource-group rg-linux-fundamentos --name vm-linux-fundamentos
+    az vm start --resource-group rg-fundamentos --name vm-linux-fundamentos
  ```
 - 🔄 **Reconexion por SSH:**
  ```bash
