@@ -58,4 +58,10 @@ Azure comenzó a recopilar métricas como CPU, memoria y disco. Los datos estar�
 
 ![Habilitación de Insights](images/monitoring_vm.png)
 
+## 5. Configuración de alerta para CPU alta
+
+Se creó una alerta para notificar cuando la CPU de la VM `vm-linux-fundamentos` supera el 80%.
+
+![Alerta CPU creada](images/alerta_cpu.png)
+
 
