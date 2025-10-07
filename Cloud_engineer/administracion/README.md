@@ -13,3 +13,21 @@ Comando para listar máquinas virtuales en la suscripción:
 az vm list -d -o table
 ```
 ![Estado VM](images/estado_vm.png).
+
+
+## 2. Administración básica de la máquina virtual
+
+Durante esta actividad se practicaron las operaciones principales sobre la VM Linux desde **Azure CLI**:
+
+- 🔄 **Reiniciar VM:**
+  ```bash
+  az vm restart --resource-group rg-linux-fundamentos --name vm-linux-fundamentos
+
+- 🔄 **Reiniciar VM:**
+  ```bash
+  az vm deallocate --resource-group rg-linux-fundamentos --name vm-linux-fundamentos
+  ```
+- 🔄 **Detener VM:**
+ ```bash
+    az vm deallocate --resource-group rg-linux-fundamentos --name vm-linux-fundamentos
+ ```
