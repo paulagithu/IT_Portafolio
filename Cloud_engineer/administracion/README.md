@@ -50,3 +50,13 @@ Debido al plan gratuito de Azure AD, no es posible crear nuevos usuarios; se uti
 ![Asignación de rol a usuario](images/rol_asignado.png)
 
 > Nota: Este rol permite al usuario administrar la máquina virtual (iniciar, detener, reiniciar, modificar configuración), sin otorgar permisos globales sobre Azure AD o la suscripción completa.
+
+## 4. Monitoring y alertas
+
+Se habilitó **VM Insights** para la VM `vm-linux-fundamentos`.  
+Azure comenzó a recopilar métricas como CPU, memoria y disco. Los datos estarán disponibles automáticamente después de unos minutos.
+
+### Captura #4 – Habilitación de Insights
+![Habilitación de Insights](images/monitoring_vm.png)
+
+
