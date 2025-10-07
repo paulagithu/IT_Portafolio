@@ -37,3 +37,17 @@ Durante esta actividad se practicaron las operaciones principales sobre la VM Li
     ssh -i vm-linux-fundamentos_key azureuser@<public-ip>
  ``` 
 ![Admon](images/captura_admon.png).
+
+## 3. Administración de usuarios y roles
+
+En esta sección se muestra cómo se asignó un rol a un usuario existente para administrar la VM.  
+Debido al plan gratuito de Azure AD, no es posible crear nuevos usuarios; se utilizó el usuario de Microsoft asociado a la cuenta del portal.
+
+**Usuario asignado:** p.1xx@live.com  
+**Rol asignado:** Virtual Machine Contributor  
+**Recurso:** VM `vm-linux-fundamentos`
+
+### Captura #3 – Asignación de rol a la VM
+![Asignación de rol a usuario](Images/captura_rol_asignado.png)
+
+> Nota: Este rol permite al usuario administrar la máquina virtual (iniciar, detener, reiniciar, modificar configuración), sin otorgar permisos globales sobre Azure AD o la suscripción completa.
