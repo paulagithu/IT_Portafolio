@@ -12,3 +12,4 @@ Comando para listar máquinas virtuales en la suscripción:
 ```bash
 az vm list -d -o table
 ```
+![Estado VM](images/estado_vm.png).
