@@ -36,3 +36,4 @@ Durante esta actividad se practicaron las operaciones principales sobre la VM Li
  ```bash
     ssh -i vm-linux-fundamentos_key azureuser@<public-ip>
  ``` 
+![Admon](images/captura_admon.png).
