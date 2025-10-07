@@ -47,7 +47,6 @@ Debido al plan gratuito de Azure AD, no es posible crear nuevos usuarios; se uti
 **Rol asignado:** Virtual Machine Contributor  
 **Recurso:** VM `vm-linux-fundamentos`
 
-### Captura #3 – Asignación de rol a la VM
 ![Asignación de rol a usuario](Images/captura_rol_asignado.png)
 
 > Nota: Este rol permite al usuario administrar la máquina virtual (iniciar, detener, reiniciar, modificar configuración), sin otorgar permisos globales sobre Azure AD o la suscripción completa.
