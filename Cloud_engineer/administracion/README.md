@@ -89,5 +89,6 @@ az monitor metrics list --resource <ID_VM> --metric "Disk Read Bytes" "Disk Writ
 az monitor metrics list --resource <ID_VM> --metric "Network In Total" "Network Out Total"
 ```
 
-
-
+En este paso se revisaron los logs de actividad y las métricas de rendimiento (CPU, disco, red) de la máquina virtual.
+Los resultados se exportaron en formato JSON y una captura del log fue almacenada en images/activity_log_vm.png para evidencia visual del diagnóstico.
+![](activity_log) ![](activity_log_vm.png)
