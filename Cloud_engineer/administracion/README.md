@@ -78,4 +78,16 @@ Registrar cada acción en vm_actions.log
 
 ![](images/vm_control.png) ![](images/action_logs.png)
 
+## 7. Diagnóstico y troubleshooting de la VM
+
+**Comandos ejecutados:**
+```bash
+az monitor activity-log list --resource-group RG-FUNDAMENTOS --max-events 10 --output table
+az vm show -g RG-FUNDAMENTOS -n vm-linux-fundamentos --query id -o tsv
+az monitor metrics list --resource <ID_VM> --metric "Percentage CPU"
+az monitor metrics list --resource <ID_VM> --metric "Disk Read Bytes" "Disk Write Bytes"
+az monitor metrics list --resource <ID_VM> --metric "Network In Total" "Network Out Total"
+```
+
+
 
