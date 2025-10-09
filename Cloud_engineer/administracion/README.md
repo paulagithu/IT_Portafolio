@@ -75,6 +75,7 @@ Funciones principales:
 Verificar el estado actual de la VM
 Iniciar o detener la máquina virtual
 Registrar cada acción en vm_actions.log
+
 ![](images/vm_control.png) ![](images/action_logs.png)
 
 
