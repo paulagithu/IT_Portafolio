@@ -100,3 +100,9 @@ Detecta automáticamente si la VM está encendida (running) o apagada (deallocat
 Además, registra todas las operaciones en un archivo de log (logs/vm_status.log).
 
 ![vm_sttaus.sh](scripts/vm_status.sh)
+Resultado esperado:
+Si la VM está apagada → ofrece encenderla.
+Si está encendida → ofrece opciones para apagarla o liberar recursos.
+Guarda el registro de acciones y estados en logs/vm_status.log.
+**Evidencia de ejecución:**  
+![Ejecución del script](images/vm_status_exe.png)
