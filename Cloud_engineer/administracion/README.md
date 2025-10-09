@@ -99,4 +99,4 @@ Este script permite consultar, encender o apagar la máquina virtual directament
 Detecta automáticamente si la VM está encendida (running) o apagada (deallocated / stopped), y ofrece al usuario las acciones adecuadas.
 Además, registra todas las operaciones en un archivo de log (logs/vm_status.log).
 
-📄 Archivo: scripts/vm_status.sh
+![vm_sttaus.sh](scripts/vm_status.sh)
