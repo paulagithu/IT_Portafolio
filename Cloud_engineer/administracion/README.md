@@ -69,7 +69,7 @@ Se creó una alerta para notificar cuando la CPU de la VM `vm-linux-fundamentos`
 Se creó un script Bash para automatizar tareas básicas de administración desde Azure CLI o WSL.
 El script permite iniciar, detener y verificar el estado de la máquina virtual mediante un menú interactivo, y genera un registro de acciones con la fecha y hora de cada operación.
 
-📄 Archivo: scripts/vm_admin.sh
+📄 ![Archivo:](scripts/vm_admin.sh)
 
 Funciones principales:
 Verificar el estado actual de la VM
