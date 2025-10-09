@@ -92,3 +92,11 @@ az monitor metrics list --resource <ID_VM> --metric "Network In Total" "Network 
 En este paso se revisaron los logs de actividad y las métricas de rendimiento (CPU, disco, red) de la máquina virtual.
 Los resultados se exportaron en formato JSON y una captura del log fue almacenada en images/activity_log_vm.png para evidencia visual del diagnóstico.
 ![activity_log](images/activity_log_vm.png)
+
+## 8. Automatización y scripting
+
+Este script permite consultar, encender o apagar la máquina virtual directamente desde la terminal usando Azure CLI.
+Detecta automáticamente si la VM está encendida (running) o apagada (deallocated / stopped), y ofrece al usuario las acciones adecuadas.
+Además, registra todas las operaciones en un archivo de log (logs/vm_status.log).
+
+📄 Archivo: scripts/vm_status.sh
