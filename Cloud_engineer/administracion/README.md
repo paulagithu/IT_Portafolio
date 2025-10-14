@@ -1,7 +1,7 @@
 # Administración y Scripting – Azure Cloud Engineer Training
 
 ## 🎯 Objetivo
-Aprender tareas de administración básica en Azure y comenzar con automatización mediante Azure CLI y scripts.
+Practicar la administración básica de recursos en Azure y desarrollar scripts de automatización para operaciones de máquinas virtuales, registro de acciones y monitoreo de métricas.
 
 ---
 
