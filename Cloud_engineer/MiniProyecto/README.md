@@ -30,3 +30,12 @@ Este mini-proyecto integra los conocimientos de VM, redes, almacenamiento, autom
 bash deploy_network.sh
 bash setup_vm.sh
 bash collect_logs.sh
+````
+## Capturas recomendadas (evidencia visual)
+
+![Resource Group](images/1_resource_group.png)  
+![VNet y Subnet](images/2_vnet_subnet.png)  
+![Vista VM](images/3_vm_overview.png)  
+![Red VM](images/4_vm_networking.png)  
+![Contenedor Storage](images/5_storage_container.png)  
+![Logs subidos](images/6_blob_uploaded.png)
