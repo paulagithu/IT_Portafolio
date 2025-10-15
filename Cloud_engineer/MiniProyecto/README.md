@@ -33,9 +33,9 @@ bash collect_logs.sh
 ````
 ## Capturas recomendadas (evidencia visual)
 
-![Resource Group](images/1_resource_group.png)  
-![VNet y Subnet](images/2_vnet_subnet.png)  
-![Vista VM](images/3_vm_overview.png)  
-![Red VM](images/4_vm_networking.png)  
-![Contenedor Storage](images/5_storage_container.png)  
-![Logs subidos](images/6_blob_uploaded.png)
+![Resource Group](images/resource_group.png)  
+![VNet y Subnet](images/vnet_subnet.png)  
+![Vista VM](images/vm_overview.png)  
+![Red VM](images/vm_networking.png)  
+![Contenedor Storage](images/storage_container.png)  
+![Logs subidos](images/blob_uploaded.png)
