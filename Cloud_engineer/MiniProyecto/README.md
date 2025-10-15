@@ -14,11 +14,11 @@ Este mini-proyecto integra los conocimientos de VM, redes, almacenamiento, autom
 
 ## Scripts y su descripción
 
-| Script | Descripción | Abrir script |
+| Script | Descripción |
 |--------|------------|-------------|
-| [`deploy_network.sh`](scripts/deploy_network.sh) | Crea Resource Group, Virtual Network y Subnet. | [Ver script](scripts/deploy_network.sh) |
-| [`setup_vm.sh`](scripts/setup_vm.sh) | Despliega la VM Linux con username `paula`, abre puerto 22 y conecta a la subred. | [Ver script](scripts/setup_vm.sh) |
-| [`collect_logs.sh`](scripts/collect_logs.sh) | Crea Storage Account, contenedor `logs` y sube archivos de evidencia (`vm_status.log`). | [Ver script](scripts/collect_logs.sh) |
+| [`deploy_network.sh`](scripts/deploy_network.sh) | Crea Resource Group, Virtual Network y Subnet. |
+| [`setup_vm.sh`](scripts/setup_vm.sh) | Despliega la VM Linux con username `paula`, abre puerto 22 y conecta a la subred. |
+| [`collect_logs.sh`](scripts/collect_logs.sh) | Crea Storage Account, contenedor `logs` y sube archivos de evidencia (`vm_status.log`). | 
 
 > 🔹 Al hacer clic en los enlaces, GitHub abrirá el contenido del archivo `.sh`.
 
