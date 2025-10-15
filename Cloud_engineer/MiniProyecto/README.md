@@ -12,14 +12,15 @@ Este mini-proyecto integra los conocimientos de VM, redes, almacenamiento, autom
 - Implementar monitoreo y alertas
 - Documentar todo con capturas y logs
 
-
 ## Scripts y su descripción
 
-| Script | Descripción |
-|--------|------------|
-| `deploy_network.sh` | Crea Resource Group, Virtual Network y Subnet. |
-| `setup_vm.sh` | Despliega la VM Linux con username `paula`, abre puerto 22 y conecta a la subred. |
-| `collect_logs.sh` | Crea Storage Account, contenedor `logs` y sube archivos de evidencia (`vm_status.log`). |
+| Script | Descripción | Abrir script |
+|--------|------------|-------------|
+| [`deploy_network.sh`](scripts/deploy_network.sh) | Crea Resource Group, Virtual Network y Subnet. | [Ver script](scripts/deploy_network.sh) |
+| [`setup_vm.sh`](scripts/setup_vm.sh) | Despliega la VM Linux con username `paula`, abre puerto 22 y conecta a la subred. | [Ver script](scripts/setup_vm.sh) |
+| [`collect_logs.sh`](scripts/collect_logs.sh) | Crea Storage Account, contenedor `logs` y sube archivos de evidencia (`vm_status.log`). | [Ver script](scripts/collect_logs.sh) |
+
+> 🔹 Al hacer clic en los enlaces, GitHub abrirá el contenido del archivo `.sh`.
 
 ## Ejecución de scripts (Azure CLI)
 
@@ -31,7 +32,7 @@ bash deploy_network.sh
 bash setup_vm.sh
 bash collect_logs.sh
 ````
-## Capturas recomendadas (evidencia visual)
+## Evidencia 
 
 ![Resource Group](images/resource_group.png)  
 ![VNet y Subnet](images/vnet_subnet.png)  
