@@ -40,7 +40,7 @@ Integración de todo lo aprendido en un solo proyecto conceptual:
 - **Documentación completa con capturas y diagramas**
 
 ### Diagrama conceptual
-![Arquitectura Mini-Proyecto](images/project_diagram.png)
+![Arquitectura Mini-Proyecto](project_diagram.png)
 
 ### Nota profesional
 > La infraestructura también se puede desplegar automáticamente con **Terraform (IaC)**. Los scripts de administración y monitoreo funcionan sin cambios, demostrando automatización y control profesional de la VM.
