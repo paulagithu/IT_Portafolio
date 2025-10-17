@@ -34,4 +34,5 @@ Este proyecto incluye scripts de administración (`vm_admon.sh`, `vm_status.sh`)
    ```bash
    ./vm_status.sh
    ./vm_admon.sh
+![Arquitectura Mini-Proyecto](images/project_diagram.png)
 
